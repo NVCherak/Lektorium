@@ -1,0 +1,172 @@
+body {
+    font: 0.8rem Arial, sans-serif;
+    line-height: 1.5em;
+    color: #F6F6F6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 0 60px 0;
+    overflow: hidden;
+}
+
+.header {
+    height: 140px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.header div {
+    background-color: #767676;
+    color: white;
+    float: left;
+    height: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+#head1 {
+    width: calc(100% / 7 - 20px);
+}
+
+#head2 {
+    width: calc(100% / 7 * 2 - 20px);
+}
+
+#head3 {
+    width: calc(100% / 7 * 4 - 20px);
+}
+
+hr {
+    margin: 10px;
+}
+
+.number {
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    text-shadow: 2px 2px 4px black;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content p {
+    margin: 0;
+}
+
+.left-menu {
+    background-color: #767676;
+    color: white;
+    float: left;
+    width: calc(18% - 20px);
+    padding: 15px;
+    margin: 10px;
+}
+
+.clear-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wide-tile {
+    background-color: #DBDBDB;
+    color: #727272;
+    font-size: 1.2rem;
+    float: right;
+    width: calc(82% - 20px);
+    padding: 20px;
+    margin: 10px;
+}
+
+.square-list {
+    list-style-type: square;
+    margin: 30px 0;
+}
+
+.tile-area {
+    float: left;
+    width: 82%;
+}
+
+.tile {
+    background-color: #DBDBDB;
+    color: #727272;
+    width: calc(100% / 5 - 20px);
+    float: left;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.middle-tile-area {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    float: right;
+    width: calc(82% + 20px);
+    margin: 0 -10px;
+}
+
+.middle-tile {
+    display: table-cell;
+    vertical-align: top;
+    background-color: #DBDBDB;
+    color: #727272;
+    width: 50%;
+    padding: 20px;
+}
+
+.left-bottom-menu {
+    background-color: #767676;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: calc(18% - 20px);
+    height: 120px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px 0;
+    margin: 20px 0;
+}
+
+.footer-tile {
+    background-color: #767676;
+    color: white;
+    display: table-cell;
+    width: 33.3%;
+    padding: 18px;
+}
+
+.footer .clear-list {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.footer .square-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.footer-column {
+    height: calc(100% / 2 - 20px) !important;
+}
+
+@media only screen and (max-width: 1136px) {
+
+}
